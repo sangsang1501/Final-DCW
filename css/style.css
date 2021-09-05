@@ -1,0 +1,109 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&family=Zilla+Slab&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #06121E;
+	
+}
+#wrapper{
+	width: 1344px;
+	margin: 0 auto;
+}
+.header-main{
+	width: 100%;
+	height: 85px;
+}
+.logo{
+/*	background: #474747;*/
+	width: 25%;
+	height: 85px;
+	float: left;
+}
+.menu{
+/*	background: #AA6667;*/
+	width: 50%;
+	height: 85px;
+	float: left;
+}
+.login{
+/*	background: #474747;*/
+	width: 15%;
+	height: 85px;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu li{
+	display: inline-block;
+	line-height: 90px;
+	margin-left: 30px;
+}
+.menu li a{
+	color: #C8C8C8;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Zilla Slab', serif;
+}
+.menu li a:hover{
+	text-decoration: underline;
+	color: #551415;
+}
+.login button{
+	width: 100%;
+	height: 45px;
+	border: none;
+	border-radius: 10px;
+	background-color: #CF2122;
+	color: #C8C8C8;
+	font-size: 25px;
+	margin-top: 25px;
+}
+h1{
+	color: #B1A21E;
+}
+.xtc{
+	float: right;
+	text-decoration: none;
+	color: aliceblue;
+}
+h1 a:hover{
+	color: red;
+}
+.phim{
+	width: 260px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.phim img{
+	width: 260px;
+	border-radius: 5px;
+}
+h2 a{
+	text-decoration: none;
+	color: #BDBDBD;
+}
+h3 a{
+	text-decoration: none;
+	color: #737373;
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	float: left;
+	background-image: url("../img/pngtree-literary-minimalist-film-shooting-banner-poster-image_188520.jpg");
+}
+.info ul{
+	margin: 70px;
+}
+.info li{
+	font-size: 23px;
+	font-family: 'Zilla Slab', serif;
+	color: aliceblue;
+}
